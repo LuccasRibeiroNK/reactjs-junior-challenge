@@ -44,6 +44,27 @@
       "phone": "+1 (959) 528-3801",
       "address": "595 Kimball Street, Comptche, Delaware, 8300",
       "isActive": true
+    },
+    {
+      "guid": "9e41e7e1-b46f-4a58-be7f-9fd9c009a328",
+      "name": "George Lucas",
+      "company": "AVG",
+      "email": "luccasribeiro1@gmail.com",
+      "phone": "79 988078275",
+      "address": "av central 1256",
+      "isActive": true,
+      "id": "rgH5Om_"
+    },
+    {
+      "guid": "7f0ba3d9-d582-44cf-ba2f-5190083e425b",
+      "name": "Lucas",
+      "company": "BGS",
+      "email": "lucas@gmail.com",
+      "phone": "79 99999999",
+      "address": "askdaskjd",
+      "isActive": true,
+      "notas": "Novo usuário bla bla",
+      "id": "nTA8ynJ"
     }
   ]
 }
