@@ -7,6 +7,9 @@ import ReadOnlyRow from "./ReadOnlyRow";
 import Colums from "./Colums";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEdit, faTrash } from "@fortawesome/free-solid-svg-icons";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Cadastro from "./Pages/Cadastro";
+
 export default function Index(data: any) {
   const [users, setUsers] = useState([]);
   const [name, setName] = useState("");
@@ -26,27 +29,6 @@ export default function Index(data: any) {
         console.log(err);
       });
   }, []);
-
-  const postData = (e: any) => {
-    e.preventDefault();
-    Axios.post("http://localhost:3001/clients", {
-      guid: uuidv4(),
-      name: name,
-      company: company,
-      email: email,
-      phone: phone,
-      address: address,
-      isActive: true,
-      notas: notas,
-    }).then(
-      (res) => {
-        console.log(res);
-      },
-      (err) => {
-        console.log(err.response.data);
-      }
-    );
-  };
 
   return (
     <Form>
@@ -99,63 +81,10 @@ export default function Index(data: any) {
                 </tbody>
               </>
             </table>
+            <Router>
+              <Route path="/Cadastro" element={<Cadastro />} />
+            </Router>
           </div>
-          <Container>
-            <h2>Dados do Cliente</h2>
-            <nav className="inputs">
-              <div className="input-group">
-                <input
-                  type="text"
-                  value={name}
-                  placeholder="Nome"
-                  onChange={(e) => setName(e.target.value)}
-                />
-                <input
-                  type="text"
-                  value={company}
-                  placeholder="Empresa"
-                  onChange={(e) => setCompany(e.target.value)}
-                />
-              </div>
-              <div className="input-group">
-                <input
-                  type="text"
-                  value={email}
-                  placeholder="Email"
-                  onChange={(e) => setEmail(e.target.value)}
-                />
-                <input
-                  type="text"
-                  value={phone}
-                  placeholder="Telefone"
-                  onChange={(e) => setPhone(e.target.value)}
-                />
-              </div>
-              <div className="input-group2">
-                <input
-                  type="text"
-                  value={address}
-                  placeholder="Endereço"
-                  onChange={(e) => setAddress(e.target.value)}
-                />
-              </div>
-              <input
-                className="notas"
-                type="text"
-                value={notas}
-                placeholder="Notas"
-                onChange={(e) => setNotas(e.target.value)}
-              />
-            </nav>
-            <div className="container">
-              <button onClick={postData} className="btn btn-danger">
-                Salvar
-              </button>
-              <button onClick={postData} className="btn btn-secondary">
-                Cancelar
-              </button>
-            </div>
-          </Container>
         </C>
       </>
     </Form>

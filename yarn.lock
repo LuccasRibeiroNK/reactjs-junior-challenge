@@ -336,7 +336,7 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@popperjs/core@^2.0.0", "@popperjs/core@^2.11.5", "@popperjs/core@^2.6.0", "@popperjs/core@^2.9.2":
+"@popperjs/core@^2.0.0", "@popperjs/core@^2.6.0":
   "integrity" "sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw=="
   "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.11.5.tgz"
   "version" "2.11.5"
@@ -360,21 +360,6 @@
   "version" "1.1.2"
   dependencies:
     "defer-to-connect" "^1.0.1"
-
-"@types/bootstrap@^5.1.12":
-  "integrity" "sha512-pSS5BGEgepwzdbsBGswBWFmgrnYpp7c4UfuYe1FJWwkrcjm/JVwfG4gBkOYtd92Otd3RdJK0ByBWMkBROfLEPw=="
-  "resolved" "https://registry.npmjs.org/@types/bootstrap/-/bootstrap-5.1.12.tgz"
-  "version" "5.1.12"
-  dependencies:
-    "@popperjs/core" "^2.9.2"
-
-"@types/hoist-non-react-statics@*":
-  "integrity" "sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA=="
-  "resolved" "https://registry.npmjs.org/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz"
-  "version" "3.3.1"
-  dependencies:
-    "@types/react" "*"
-    "hoist-non-react-statics" "^3.3.0"
 
 "@types/prop-types@*":
   "integrity" "sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w=="
@@ -401,15 +386,6 @@
   "integrity" "sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew=="
   "resolved" "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.2.tgz"
   "version" "0.16.2"
-
-"@types/styled-components@^5.1.25":
-  "integrity" "sha512-fgwl+0Pa8pdkwXRoVPP9JbqF0Ivo9llnmsm+7TCI330kbPIFd9qv1Lrhr37shf4tnxCOSu+/IgqM7uJXLWZZNQ=="
-  "resolved" "https://registry.npmjs.org/@types/styled-components/-/styled-components-5.1.25.tgz"
-  "version" "5.1.25"
-  dependencies:
-    "@types/hoist-non-react-statics" "*"
-    "@types/react" "*"
-    "csstype" "^3.0.2"
 
 "@types/uuid@8.3.4":
   "integrity" "sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw=="
@@ -529,11 +505,6 @@
     "raw-body" "2.5.1"
     "type-is" "~1.6.18"
     "unpipe" "1.0.0"
-
-"bootstrap@^5.2.0-beta1":
-  "integrity" "sha512-6qbgs177WZEFY4SLQUq3tEHayYG80nfDmyTpdKi0MJqRMdS+HAoq24+YKfx6wf+nHY0rx8zrh477J1lFu4WzOA=="
-  "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-5.2.0-beta1.tgz"
-  "version" "5.2.0-beta1"
 
 "boxen@^5.0.0":
   "integrity" "sha512-9gYgQKXx+1nP8mP7CzFyaUARhg7D3n1dF/FnErWmu9l6JvGpNUN278h0aSb+QjoiKSWG+iZ3uHrcqk0qrY9RQQ=="
@@ -1161,7 +1132,7 @@
   dependencies:
     "function-bind" "^1.1.1"
 
-"hoist-non-react-statics@^3.0.0", "hoist-non-react-statics@^3.3.0":
+"hoist-non-react-statics@^3.0.0":
   "integrity" "sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw=="
   "resolved" "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz"
   "version" "3.3.2"
@@ -1736,10 +1707,10 @@
   dependencies:
     "loose-envify" "^1.1.0"
 
-"reactstrap@^9.0.3":
-  "integrity" "sha512-PoczGgSvx8a1X5vsdz92OgEuGnnFmcHOv1KwD/ELTC86vzBBnvhDOfU5t8eS4NSv1uFGeG1ERev2obpAZvsW8Q=="
-  "resolved" "https://registry.npmjs.org/reactstrap/-/reactstrap-9.0.3.tgz"
-  "version" "9.0.3"
+"reactstrap@^9.1.1":
+  "integrity" "sha512-XlQI5qKHQ4QMpye4GxLgoj8rv+qsypvzMcs2KA11DeYjT82LcS48ttfNqOodDYyeCYv8t89gd9THXkjGhoYp5A=="
+  "resolved" "https://registry.npmjs.org/reactstrap/-/reactstrap-9.1.1.tgz"
+  "version" "9.1.1"
   dependencies:
     "@babel/runtime" "^7.12.5"
     "@popperjs/core" "^2.6.0"
