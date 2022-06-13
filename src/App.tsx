@@ -1,14 +1,14 @@
 import "./App.css";
-import Index from "./components/Index";
+import Index from "./components/Pages/Index";
 import { Container } from "reactstrap";
-import Cadastro from "./components/Pages/Cadastro";
+import { Routes, Route } from "react-router-dom";
+import MainPage from "./components/Pages/MainPage";
 
 function App() {
   return (
     <>
       <Container>
-        <Index />
-        <Cadastro />
+        <MainPage />
       </Container>
     </>
   );

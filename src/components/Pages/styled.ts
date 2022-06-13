@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const C = styled.div`{
+export const Styles = styled.div`{
     
     border-radius: 6px;
     background: #ffffff;
@@ -12,10 +12,7 @@ export const C = styled.div`{
     display: flex;
     flex-direction: column;
     align-items: center;
-    // justify-content: center;
     width: 100%;
-    // height: 100%;
-    // padding: 0px;
     
 }
 
@@ -36,11 +33,16 @@ button {
     margin: 0.5em;
     cursor: pointer;
 }
+.btnCadastrar{
+    color: #ffffff;
+    text-decoration: none !important
+}
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5em;
+    padding: 1.5em;
+    padding-bottom: 1.5em;
 }
 button{           
     font-size: 1em;
@@ -53,8 +55,6 @@ input{
     margin: 0.5em;   
     
 }
-
-
 .search{ 
     margin-left: 10.5em;
 }
@@ -74,13 +74,52 @@ h2{
     width: 97%;
 }
     
-}
 .table-bordered{ 
     margin-left: 10%;
     width: 80%;
     border-radius: 6px;
 }
+@media (max-width: 500px) {
+    max-width: 100%;
+  }
 `;
 
+export const StyledC = styled.div`
+.container {
+    padding: 10px;
+    margin-top: 1.5em;
+    max-width: 80%;    
+    text-align: center;
+    background: #ffffff;
+    }
+  input  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        width: 100%;
+        border-radius: 6px;
+        padding: 0.5em;
+        margin: 0.5em;
+  }
+  .endereco{
+    width: 100%;
+    
+  }
+  button {
+    display: inline-block;    
+    margin: 1em;
+    margin-top: -35px;
+    width: 20%;
+  }
+  .notas{
+    height: 100px;
+    margin-top: -35px;
+    
+    
+  }
 
+@media (max-width: 500px) {
+    max-width: 100%;
+}
+`;
 

@@ -54,50 +54,6 @@
       "address": "av central 1256",
       "isActive": true,
       "id": "rgH5Om_"
-    },
-    {
-      "guid": "7f0ba3d9-d582-44cf-ba2f-5190083e425b",
-      "name": "Lucas",
-      "company": "BGS",
-      "email": "lucas@gmail.com",
-      "phone": "79 99999999",
-      "address": "askdaskjd",
-      "isActive": true,
-      "notas": "Novo usuário bla bla",
-      "id": "nTA8ynJ"
-    },
-    {
-      "guid": "1bdca8a0-272a-454f-b31c-85c1dad67b2d",
-      "name": "asdasd",
-      "company": "asdasd",
-      "email": "asdasd@asdasd",
-      "phone": "888888888",
-      "address": "asdasdasd",
-      "isActive": true,
-      "notas": "fffffffffffffffffffffffff",
-      "id": "ZNHmqOL"
-    },
-    {
-      "guid": "7c0e1f05-4c8c-4493-bcc6-bed5d35c5e82",
-      "name": "",
-      "company": "",
-      "email": "",
-      "phone": "",
-      "address": "",
-      "isActive": true,
-      "notas": "",
-      "id": "yytuAFa"
-    },
-    {
-      "guid": "a769d495-3528-414d-8ef2-2e8fffe0ff32",
-      "name": "",
-      "company": "",
-      "email": "",
-      "phone": "",
-      "address": "",
-      "isActive": true,
-      "notas": "",
-      "id": "KTgfu7U"
     }
   ]
 }
